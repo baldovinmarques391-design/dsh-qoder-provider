@@ -1,0 +1,55 @@
+{
+  "name": "@local/dsh-qoder-provider",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "把 Qoder CN 的免费模型接进 DSH（qoder / Qwen3.8-Flash）。",
+  "icon": "./icon.svg",
+  "exports": {
+    ".": "./index.js",
+    "./display": "./display.js",
+    "./package.json": "./package.json",
+    "./locale/en.json": "./locale/en.json",
+    "./locale/zh.json": "./locale/zh.json"
+  },
+  "files": [
+    "index.js",
+    "display.js",
+    "translate.js",
+    "store.js",
+    "warm.js",
+    "tool-bridge.js",
+    "proc.js",
+    "cordis.patch.yml",
+    "icon.svg",
+    "README.md",
+    "locale"
+  ],
+  "peerDependencies": {
+    "@deepseek-ai/dsh-llm": "*"
+  },
+  "peerDependenciesMeta": {
+    "@deepseek-ai/dsh-llm": {
+      "optional": false
+    }
+  },
+  "meta": {
+    "title": "Qwen 桥接",
+    "description": "把 Qoder CN 的免费模型接进 DSH（qoder / Qwen3.8-Flash）。"
+  },
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    }
+  },
+  "keywords": [
+    "dsh-plugin",
+    "deepseek-harness",
+    "llm-provider",
+    "qoder"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/baldovinmarques391-design/dsh-qoder-provider.git"
+  }
+}

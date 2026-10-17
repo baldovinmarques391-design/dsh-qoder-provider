@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24" role="img" aria-label="Qwen 桥接">
+  <g transform="translate(-1.2 -4.0875) scale(1.1)" stroke="#4D6BFE" fill="none" stroke-linecap="round">
+    <path d="M2.4 20.4 C3 15.9 4.4 12.3 5.9 10.65 C7.6 14.4 10.1 15.15 12 15.15 C13.9 15.15 16.4 14.4 18.1 10.65 C19.6 12.3 21 15.9 21.6 20.4" stroke-width="0.85"/>
+    <path d="M5.9 8.85 V20.4 M18.1 8.85 V20.4" stroke-width="1.09"/>
+    <path d="M1.6 20.4 H22.4" stroke-width="1.50" stroke-linecap="round"/>
+    <path d="M9 14.925 V20.4 M12 15.15 V20.4 M15 14.925 V20.4" stroke-width="1.09" opacity="0.5"/>
+  </g>
+</svg>

@@ -1,0 +1,11 @@
+- insert:
+    - id: qoder-provider
+      name: '@local/dsh-qoder-provider'
+      config:
+        permissionMode: dont_ask
+        timeoutMs: 300000
+        allowUnlisted: false
+        selftest: true
+        warm: true
+        localTitles: true
+        warmIdleMs: 300000

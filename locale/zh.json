@@ -1,0 +1,6 @@
+{
+  "meta": {
+    "title": "Qwen 桥接",
+    "description": "把 Qoder CN 的免费模型接进 DSH（qoder / Qwen3.8-Flash）。"
+  }
+}

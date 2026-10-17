@@ -1,0 +1,6 @@
+{
+  "meta": {
+    "title": "Qwen bridge",
+    "description": "Adds Qoder CN's free model to DSH (qoder / Qwen3.8-Flash)."
+  }
+}
